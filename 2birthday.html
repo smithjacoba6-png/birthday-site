@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love ❤️</title>
+    <link rel="stylesheet" href="2style birthday.css">
+</head>
+<body>
+
+    <div class="stars"></div>
+
+    <audio id="bgMusic" loop>
+        <source src="birthday sex 27.mp3" type="audio/mpeg">
+    </audio>
+
+    <section class="page active" id="page1">
+        <div class="content">
+            <h1 class="welcome">THIS IS FOR YOU LOVE ❤️</h1>
+            <p>A little surprise made for your husband habi.</p>
+            <button onclick="startJourney()">START YOUR SURPRISE ✨</button>
+        </div>
+    </section>
+
+    <section class="page" id="page2">
+        <div class="content">
+            <h1>HAPPY BIRTHDAY MY LOVE 🎂</h1>
+            <h2>To the most special girl in my life ❤️</h2>
+            <p>Today is your special day. I hope your day is filled with happiness.</p>
+            <button onclick="nextPage(3)">NEXT SURPRISE 💕</button>
+        </div>
+    </section>
+
+    <section class="page" id="page3">
+        <div class="content">
+            <h1>OUR BEAUTIFUL MEMORIES 📸</h1>
+            <p>Every moment with you is something I treasure.</p>
+
+            <div class="gallery">
+                <img src="1.jpg" alt="Our memory">
+                <img src="2.jpg" alt="Our memory">
+                <img src="3.jpg" alt="Our memory">
+            </div>
+
+            <button onclick="nextPage(4)">CONTINUE ❤️</button>
+        </div>
+    </section>
+
+    <section class="page" id="page4">
+        <div class="content">
+            <h1>A LETTER FOR YOU 💌</h1>
+
+            <button onclick="openLetter()">OPEN MY LETTER 💗</button>
+
+            <div class="letter" id="letter">
+                <p>
+                    My love, happy birthday! ❤️
+
+                    I just want you to know how thankful I am
+                    to have you in my life. You make my days
+                    brighter, and your smile makes everything
+                    better.
+
+                    I hope you never forget how special you are
+                    to me. I will always support you, appreciate
+                    you, and love you.
+
+                    Enjoy your special day, my love! ❤️
+                </p>
+            </div>
+
+            <button onclick="nextPage(5)">NEXT PAGE ✨</button>
+        </div>
+    </section>
+
+    <section class="page" id="page5">
+        <div class="content">
+            <h1>ONE LAST SURPRISE 🎁</h1>
+
+            <div class="gift" onclick="openGift()">🎁</div>
+
+            <p id="giftHint">CLICK THE GIFT TO OPEN IT</p>
+
+            <h2 id="giftMessage">
+                YOU ARE MY FAVORITE GIFT. ❤️
+                <br>
+                I LOVE YOU SO MUCH!
+            </h2>
+
+            <button onclick="nextPage(6)">FINAL SURPRISE 💖</button>
+        </div>
+    </section>
+
+    <section class="page" id="page6">
+        <div class="content">
+            <h1 class="final">HAPPY BIRTHDAY, MY LOVE! ❤️</h1>
+
+            <div class="heart">💖</div>
+
+            <h2>May all your dreams come true.</h2>
+            <p>Always remember that you are loved, appreciated, and special.</p>
+            <h2>I LOVE YOU FOREVER! 💗</h2>
+
+            <button onclick="replay()">REPLAY OUR SURPRISE 🔄</button>
+        </div>
+    </section>
+
+    <script src="2script birthday.js"></script>
+</body>
+</html>
